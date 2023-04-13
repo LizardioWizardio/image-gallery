@@ -1,8 +1,5 @@
 name: Deploy to GitHub Pages
 
-env:
-  ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-
 on:
   push:
     branches:
@@ -24,5 +21,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.ACCESS_TOKEN }}
           publish_dir: ./build
