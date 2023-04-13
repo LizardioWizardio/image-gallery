@@ -1,5 +1,8 @@
 name: Deploy to GitHub Pages
 
+env:
+  ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
 on:
   push:
     branches:
