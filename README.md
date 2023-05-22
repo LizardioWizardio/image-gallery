@@ -6,4 +6,4 @@ Cтраница с отображением фото пользователя
 
 ## Demo
 
-Check out the live demo of Starwars Facts on GitHub Pages: [Starwars Facts Demo](https://lizardiowizardio.github.io/image-gallery/)
+Check out the live demo of Image Gallery on GitHub Pages: [Image Gallery Demo](https://lizardiowizardio.github.io/image-gallery/)
